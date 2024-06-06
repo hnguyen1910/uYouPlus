@@ -380,8 +380,6 @@ static BOOL findCell(ASNodeController *nodeController, NSArray <NSString *> *ide
 - (BOOL)respectDeviceCaptionSetting { return NO; }
 // Swipe right to dismiss the right panel in fullscreen mode
 - (BOOL)isLandscapeEngagementPanelSwipeRightToDismissEnabled { return YES; }
-// Don't use new YT settings layout (Cairo Settings)
-- (BOOL)mainAppCoreClientEnableCairoSettings { return NO; }
 %end
 
 # pragma mark - Constructor
